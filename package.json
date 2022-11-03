@@ -1,0 +1,20 @@
+{
+  "name": "world-cup-bet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/klevessonroseno/world-cup-bet.git",
+  "author": "klevessonroseno <klevesson.developer@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "devDependencies": {
+    "prisma": "^4.5.0",
+    "tsx": "^3.11.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.5.0",
+    "fastify": "^4.9.2"
+  }
+}
